@@ -1,0 +1,162 @@
+.Header{
+
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header-Portfolio{
+    border-bottom: 1px solid #ECECEC;
+
+}
+
+
+.Header .conteiner{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+  /* Header navigation */
+
+.Navigation{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation-list{
+
+   display: flex;
+  
+    
+
+}
+
+.navigation-list-item:not(:last-child) {
+
+    margin-right: 50px;
+}
+
+
+/* Второй вариант */
+/* .navigation-list-item + .navigation-list-item{
+
+    margin-left: 50px;
+} */
+
+
+.navigation-list-item-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $primary-title-color;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    list-style-type: none;  
+    
+}
+
+.navigation-list-item{
+
+    position: relative;
+}
+.Studio::after,
+.Portfolio::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: $accent-color;
+    border-radius: 2px;
+    bottom: 0;
+}
+
+
+
+.navigation-list a:hover,
+.navigation-list a:focus{
+
+    color: $accent-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Header Adress */
+
+ 
+/* .header-utils{
+    display: flex;
+    
+
+}  */
+
+/* .header-address .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+
+} */
+ 
+
+
+.header-address .link:not(:last-child){
+
+    margin-right: 50px;
+
+}
+
+.header-address-mail{
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+    
+    color:  $primary-text-color;
+}
+.header-address-tel{
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+    
+    color: $primary-text-color;
+
+    
+
+}
+.header-address a:hover,
+.header-address a:focus{
+
+    color: $accent-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
+}
+.header-address{
+    display:flex;
+    height: 16px;
+}
+
+.header-icon{
+margin-right: 10px;
+fill: currentColor;
+
+    
+}
