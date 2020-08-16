@@ -170,14 +170,15 @@
       line-height: 1.714;
       color: #757575;
       margin-left: 8.38px;
+
+      a{
+        color: $accent-color;
+     
+       } 
        
     }
   
-    .modal-text a{
-     color: $accent-color;
-  
-    } 
-  
+      
     .modal-checkbox{
       width: 16px;
       height: 15px;
